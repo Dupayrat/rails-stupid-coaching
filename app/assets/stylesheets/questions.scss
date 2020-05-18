@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  padding-left: 20px;
+}
+
+h1 {
+  color:grey;
+  padding-top: 20px;
+
+}
+
+.card {
+padding:10px;
+border: rgba(162, 162, 162,0.5);
+font-family:roboto;
+border-radius: 2px;
+box-shadow: 2px 2px rgba(162, 162, 162,0.1);
+margin-bottom:5px;
+border-left:solid;
+  border-left-width: 10px;
+  border-left-color: #EEEEEE;
+}
+
+.interlocuteur {
+  font-style:italic;
+}
+
+.yellow-answer {
+background-color: rgba(255, 244, 175,0.2);
+font-family:roboto;
+
+  #answer {
+    font-weight: 600;
+      font-size: 20px;
+  }
+  }
+
+a {
+  padding-top:100px;
+  text-decoration: none;
+  color:green;
+
+}

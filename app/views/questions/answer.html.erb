@@ -1,0 +1,28 @@
+<h1>Coach answer is 🚀</h1>
+
+<div class = "card">
+  <p>
+    <%= @asking %>
+  </p>
+  <p class = "interlocuteur">
+    <%= "-- You" %>
+  </p>
+</div>
+
+<div class = "card yellow-answer">
+  <p id ="answer">
+    <%= @answer %>
+  </p>
+  <p class = "interlocuteur">
+    <%= "-- Your coach" %>
+  </p>
+</div>
+
+<!--
+<p>
+  <%= "#{@asking} <br>-- You".html_safe %>
+</p> -->
+
+<div id = "question">
+<%= link_to "Ask a new question", ask_path %>
+</div>
